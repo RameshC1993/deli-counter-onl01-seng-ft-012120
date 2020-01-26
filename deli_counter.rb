@@ -14,7 +14,9 @@ end
 
 def take_a_number(array, names)
   array << names
-  position = array.index(names)
+  array.each_with_index do |value, index|
+    puts 
+  end
   
 end
 
