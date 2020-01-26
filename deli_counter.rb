@@ -15,7 +15,7 @@ end
 def take_a_number(array, names)
   array << names
   array.each_with_index do |value, index|
-    puts "Welcome, #{value}. You are number #{index + 1} in line."
+    puts "Welcome, #{value}. You are number #{index + 4} in line."
   end
   
 end
